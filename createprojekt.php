@@ -1,9 +1,5 @@
 <?php include "header.php"?>
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 <div class="container">
 <h1 class="pcenter">Create project</h1><br>
 
