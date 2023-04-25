@@ -42,8 +42,8 @@ if(isset($_POST['logout-button'])){
   ?>
   <form method="POST" action="">
 	<input type="submit" name="logout-button" value="logout" role="button" class="button-92 me-2">
-
-	<input type="submit" name="Create-button" value="Create project" role="button" class="button-92 me-2">
+	<a class="navbar-brand" href="createprojekt.php">Create project</a>
+	
 	
 		<?php 
 		if($user->checkUserRole(5)){

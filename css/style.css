@@ -1,9 +1,10 @@
 
 * {
-	 color:black;
+	color:black;
 }
 
 #header {
+<<<<<<< Updated upstream
 	border: 1px solid black;
 }
 
@@ -20,5 +21,23 @@
 
 .pcenter {
 	text-align: center;
+=======
+   border: 1px solid black;
+}
+
+.projects {
+   margin: 0 auto;
+   width: 1000px;
+   height: 100px;
+   border: 1px solid black;
+}
+
+.center {
+   margin: 0 auto;
+}
+
+.pcenter {
+   text-align: center;
+>>>>>>> Stashed changes
 }
 

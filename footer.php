@@ -1,5 +1,3 @@
-<?php include "header.php"?>
-
 
 <footer id="footer" class="text-center text-lg-start">
   <!-- Copyright -->
