@@ -1,3 +1,4 @@
+<h1 class="center">Projects</h1>
 <?php
 include "header.php";
 	if(!$user->checkLoginStatus()){
@@ -9,3 +10,6 @@ include "header.php";
 include "footer.php";
 ?>
 
+<div class="projects">
+
+</div>

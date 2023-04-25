@@ -58,13 +58,6 @@
   </div>
 </form>
 </div>
- <!-- Register buttons -->
-  <div class="text-center">
-    <p>Not a member? <a href="register.php">Register</a></p>
-  </div>
-  
-  
-  
 
 	
 
