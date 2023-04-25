@@ -26,25 +26,14 @@ if(isset($_POST['logout-button'])){
 <script defer src="js/script.js"></script>
 </head>
 
-<h2> hej!? </h2>
-<h2> hej2! </h2>
-<h3> hej3131 </h3>
-<h4> hejt34t4 </h4>
-<h5> hej du haha </h5>
 
 <nav id="header" class=" navbar navbar-expand-lg">
-  <a id="margin" class="text-white navbar-brand" href="index.php">Home</a>
+  <a id="margin" class=" navbar-brand" href="index.php">Powerol</a>
   <button class="navbar-toggler linkcolor" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-	<li class="nav-item">
-        <a class="nav-link text-white linkcolor" href="register.php">Register</a>
-	</li>
-	<li class="nav-item">
-        <div id="logout"><a class="nav-link text-white linkcolor" href="index.php">Logout</a></div>
-	</li>
     </ul>
   </div>
   
@@ -53,6 +42,8 @@ if(isset($_POST['logout-button'])){
   ?>
   <form method="POST" action="">
 	<input type="submit" name="logout-button" value="logout" role="button" class="button-92 me-2">
+
+	<input type="submit" name="Create-button" value="Create project" role="button" class="button-92 me-2">
 	
 		<?php 
 		if($user->checkUserRole(5)){
@@ -65,7 +56,3 @@ if(isset($_POST['logout-button'])){
 
 	
 </nav>
-
-
-
-
